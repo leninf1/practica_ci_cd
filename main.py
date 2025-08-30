@@ -1,3 +1,5 @@
+from operaciones import sumar
+
 def menu():
     print("=== Calculadora Básica ===")
     print("1. Sumar")
@@ -13,11 +15,16 @@ while True:
     if opcion == "5":
         print("👋 Saliendo de la calculadora...")
         break
+        
+    try:
+        num1 = float(input("Ingresa el primer número: "))
+        num2 = float(input("Ingresa el segundo número: "))
     except ValueError:
         print("⚠️ Entrada inválida. Intenta de nuevo.")
         continue
-        if opcion == "1":
-        print("No implementado")
+    
+    if opcion == "1":
+        print(f"Resultado: {sumar(num1, num2)}")
     elif opcion == "2":
         print("No implementado")
     elif opcion == "3":
