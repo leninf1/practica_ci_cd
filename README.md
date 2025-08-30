@@ -17,6 +17,9 @@ calculadora/
 
 🖥️ Uso
 
+    Ejecuta el programa principal:
+    python main.py
+
 El programa muestra un menú interactivo en consola:
 
 === Calculadora Básica ===
