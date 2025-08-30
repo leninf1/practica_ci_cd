@@ -1,4 +1,4 @@
-from operaciones import sumar
+from operaciones import sumar, restar
 
 def menu():
     print("=== Calculadora Básica ===")
@@ -26,7 +26,7 @@ while True:
     if opcion == "1":
         print(f"Resultado: {sumar(num1, num2)}")
     elif opcion == "2":
-        print("No implementado")
+        print(f"Resultado: {restar(num1, num2)}")
     elif opcion == "3":
         print("No implementado")
     elif opcion == "4":
