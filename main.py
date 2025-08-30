@@ -1,4 +1,4 @@
-from operaciones import sumar, restar
+from operaciones import sumar, restar, multiplicar
 
 def menu():
     print("=== Calculadora Básica ===")
@@ -28,7 +28,7 @@ while True:
     elif opcion == "2":
         print(f"Resultado: {restar(num1, num2)}")
     elif opcion == "3":
-        print("No implementado")
+        print(f"Resultado: {multiplicar(num1, num2)}")
     elif opcion == "4":
         print("No implementado")
     else:
